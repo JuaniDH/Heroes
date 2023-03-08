@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* HEADER */
+
+header, main, footer{
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    width: 1150px;
+    box-shadow: 0 1px 15px black;
+}
+
+.Descuentos{
+    background-color: #1CD1B0;
+    display: flex;
+    height: 45px;
+    align-items: center;
+}
+
+.Descuentos p{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.Título{
+    background-color: #00669F;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 2px 3px black;
+}
+
+.Título h1{
+    margin-left: 20px;
+    font-size: 55px;
+}
+
+/* PRINCIPAL */
+
+.contenidoPrincipal{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidoPrincipal p{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+}
+
+.contenidoPrincipal h2{
+    position: relative;
+    bottom: 65px;
+    margin-left: 13px;
+    font-size: 30px;
+}
+
+.tarjeta1, .tarjeta2, .tarjeta3{
+    margin-top: 200px;
+    text-align: center;
+    width: 298px;
+    padding-bottom: 20px;
+    position: relative;
+    box-shadow: 0 2px 20px black;
+    border-radius: 15px;
+    margin-bottom: 200px;
+    padding-bottom: 80px;
+}
+
+.tarjeta2{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.profile{
+    border-radius: 100%;
+    position: relative;
+    left: 24px;
+    bottom: 67px;
+    box-shadow: 0 3px 7px black;
+}
+
+.cora{
+    position: relative;
+    right: 170px;
+    bottom: 275px;
+}
+
+.contenidoPrincipal a{
+    background-color: #00669F;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+
+/* PIE DE PÁGINA */
+
+footer p{
+    background-color: #00669F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    width: 1151px;
+}
+
