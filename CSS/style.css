@@ -3,8 +3,6 @@
     font-family: 'Lexend Deca', sans-serif;
 }
 
-/* HEADER */
-
 header, main, footer{
     margin:auto;
     justify-content: center;
@@ -12,6 +10,10 @@ header, main, footer{
     width: 1150px;
     box-shadow: 0 1px 15px black;
 }
+
+
+/* HEADER */
+
 
 .Descuentos{
     background-color: #1CD1B0;
@@ -39,7 +41,9 @@ header, main, footer{
     font-size: 55px;
 }
 
+
 /* PRINCIPAL */
+
 
 .contenidoPrincipal{
     display: flex;
