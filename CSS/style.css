@@ -7,9 +7,10 @@ header, main, footer{
     margin:auto;
     justify-content: center;
     align-items: center;
-    width: 1400px;
+    width: 1700px;
     box-shadow: 0 1px 15px black;
 }
+
 
 
 /* HEADER */
@@ -70,7 +71,7 @@ header, main, footer{
 .tarjeta1, .tarjeta2, .tarjeta3, .tarjeta4{
     margin-top: 200px;
     text-align: center;
-    width: 298px;
+    width: 300px;
     padding-bottom: 20px;
     position: relative;
     box-shadow: 0 2px 20px black;
@@ -114,8 +115,80 @@ header, main, footer{
     top: 30px;
 }
 
+.enlaceInfo {
+    border-radius: 100%;
+    margin-left: 80px;
+}
+
 
 /* PIE DE PÁGINA */
+
+
+
+/* PÁGINA DOS */
+
+.contenidoPrincipal2 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.informaciónPrincipal {
+    background-color: #00669F;
+    width: 50%;
+    height: 800px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.informaciónPrincipal h2 {
+    margin-bottom: 0;
+}
+
+.campos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.campos input, textarea, select {
+    border-radius: 10px;
+    height: 80px;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.camposIzquierda {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-right: 30px;
+}
+
+
+.camposDerecha {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.poderes {
+    display: flex;
+    flex-wrap: wrap;
+    width: ;
+}
+
+.poderes input{
+    width: 5%;
+}
+
 
 footer p{
     background-color: #00669F;

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Héroes</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- CABECERA -->
+    <header>
+        <div class="Descuentos">
+            <p>Descuentos 20%</p>
+        </div>
+        <div class="Título">
+            <h1>Héroes</h1>
+        </div>
+    </header>
+    <!-- PRINCIPAL -->
+    <main>
+        <section class="contenidoPrincipal2">
+            <article class="informaciónPrincipal">
+                <h2>Añadí tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+                <div class="campos">
+                        <form class="camposIzquierda">
+                            <!-- NOMBRE -->
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre aquí" required>
+                            <!-- FECHA -->
+                            <label for="fecha">Fecha:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                            <!-- DESCRIPCIÓN -->
+                            <label for="descripción">Descripción:</label>
+                            <textarea>Descripción</textarea>
+                        </form>
+
+                        <form class="camposDerecha">
+                            <!-- ESPECIE -->
+                            <label for="nombre">Especie:</label>
+                            <select required>
+                                <option value="Lagarto">Lagarto</option>
+                                <option value="Bestia">Bestia</option>
+                                <option value="Fantasma">Fantasma</option>
+                                <option value="Alien">Alien</option>
+                                <option value="Titán">Titán</option>
+                            </select>
+                            <!-- ARCHIVO -->
+                            <label for="archivo">Adjunta una foto:</label>
+                            <input type="file" id="archivo" name="archivo" required>
+                        </form>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!-- PIE DE PÁGINA  -->
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
